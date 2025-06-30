@@ -1,0 +1,108 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, 'playfair display';
+  margin: 0;
+  padding: 0;
+  background: #f5f5dc;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family:cursive;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.image-container img {
+  width: 800px;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 2rem;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  background: #333;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .project {
+    font-size: 0.95rem;
+  }
+}
+
+.project {
+  transition: transform 0.3s ease;
+}
+.project:hover {
+  transform: scale(1.02);
+}
